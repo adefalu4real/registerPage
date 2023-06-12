@@ -52,6 +52,12 @@
   transition: max-height 0.5s;
   overflow: hidden;
 }
+#email-err {
+  font-size: 10px;
+}
+#passwordErr {
+  font-size: 10px;
+}
 input {
   width: 100%;
   background: transparent;
@@ -93,6 +99,10 @@ form p a {
 }
 .input-group {
   height: 280px;
+}
+.btn-field button a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .btn-field button.disable {

@@ -22,22 +22,27 @@
           <div class="input-group">
             <div class="input-field" id="nameField">
               <i class="fa-solid fa-user"></i>
-              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Name" id="nameInput" />
+              <div id="first-name-err"></div>
             </div>
 
             <div class="input-field">
               <i class="fa-solid fa-envelope"></i>
-              <input type="email" placeholder="email" />
+              <input type="email" placeholder="email" id="email" />
+              <div id="email-err"></div>
             </div>
 
             <div class="input-field">
               <i class="fa-solid fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password" id="password" />
+              <div id="passwordErr"></div>
             </div>
             <p>Lost Your Password <a href="#">Click here!</a></p>
           </div>
           <div class="btn-field">
-            <button type="button" id="signUpBtn">Sign Up</button>
+            <button type="button" id="signUpBtn">
+              <a href="signIn.html" target="_self">Sign Up</a>
+            </button>
             <button type="button" class="disable" id="signInBtn">
               Sign in
             </button>
